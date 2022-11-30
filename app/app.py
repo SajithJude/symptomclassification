@@ -16,7 +16,7 @@ def open_model(model_path):
 
 
 # Memangil Model Klasifikasi
-model_diabetes = open_model("model save\model_logreg.pkl") # Pandas dataframe
+model_diabetes = open_model("model_logreg.pkl") # Pandas dataframe
 
 # fungsi untuk inference diabetic berupa dataframe
 def inference_diabetes(data, model):
